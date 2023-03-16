@@ -1,0 +1,13 @@
+#user to enter a eg.0123456789 as a string .print even or odd number in decreasing order from the string 
+stra=input("enter a number ")
+j=0
+y=' '
+z=' '
+for x in stra:
+  if int(x)%2==0:
+    y+=x
+  else:
+    z+=x
+  j+=1
+print(y)
+print(z)
